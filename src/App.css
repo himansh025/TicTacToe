@@ -1,0 +1,10 @@
+.boder{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h4{
+  height: 50px;
+  width: 50px;
+  
+}
