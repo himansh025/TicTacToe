@@ -1,18 +1,13 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
-import Board from './Components/Board/Board'
-
+import './App.css';
+import Board from './Components/Board/Board';
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
-    <>
-      <Board/>
-    </>
-  )
+    <div className="flex flex-col items-center justify-center min-h-screen ">
+      <h1 className="text-white text-4xl mb-6 text-center bold">Tic-Tac-Toe</h1>
+      <Board />
+    </div>
+  );
 }
 
-export default App
+export default App;
